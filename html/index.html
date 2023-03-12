@@ -4,37 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mercadolibre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>MercadoLibre</title>
   </head>
   <body>
     <header>
       <!-- Navegación -->
-      <div>
+      <div class=" debug nav">
         <div>
-          <img src="" alt="">
+          <img src="/media/header/logo.svg" alt="logo">
         </div>
-        <div>
+        <div class="nav-input">
           <!-- búsqueda -->
-          <input type="text" />
-          <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
-          </div>
+          <input type="text" placeholder="Buscar productos, marcas y más…"/>
+          <div class="nav-input-delimiter"></div>
+          <img src="/media/header/icon-search.svg" alt="icon-search" />
         </div>
-        <div>espacio vacio</div>
-        <div>
-          <div>Categorías</div>
-          <span>Ofertas</span>
-          <span>Historial</span>
-          <span>Supermercado</span>
-          <span>Moda</span>
-          <span>Vender</span>
-          <span>Ayuda / PQRS</span>
+        <div></div>
+        <div class="nav-menu">
+          <img src="/media/header/icon-location.svg" alt="icon-location" />
+          <span class="nav-text">Ingresa tu domicilio</span>
         </div>
-        <div>
-          <span>crear tu cuenta</span>
-          <span>ingresa</span>
-          <span>mis compras</span>
+        <ul class="nav-list">
+          <li class="nav-list-dropdown">
+            <span>Categorías</span>
+            <img src="/media/header/arrow-down.svg" alt="arrow-down">
+          </li>
+          <li>Ofertas</li>
+          <li>Historial</li>
+          <li>Supermercado</li>
+          <li>Moda</li>
+          <li>Vender</li>
+          <li>Ayuda / PQRS</li>
+        </ul>
+        <div class="nav-menu">          
+          <span class="nav-text">Crear tu cuenta</span>
+          <span class="nav-text">Ingresa</span>
+          <span class="nav-text">Mis compras</span>
+          <img src="/media/header/icon-cart.svg" alt="icon-cart" />
         </div>
       </div>
     </header>
