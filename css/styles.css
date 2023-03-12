@@ -4,10 +4,8 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
-body {
-  height: 100vh; /* Medida relativa HTML: meta name="viewport"*/
-  width: 100vw; /* Medida relativa HTML: meta name="viewport"*/
+body{
+    background-color: #EBEBEB;
 }
 
 header {
@@ -17,7 +15,7 @@ header {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .debug {
@@ -104,6 +102,45 @@ ul {
   align-items: center;
 }
 
-.nav-list > li {
-    cursor: pointer;
+.nav-list > li,
+.carousel-list > li {
+  cursor: pointer;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url("./../media/carousel/carousel.svg");
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 335px;
+}
+
+.carousel-list {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px;
+}
+
+.carousel-button {
+  width: 6px;
+  height: 6px;
+  left: 52px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 0px 0px 1px #ffffff;
+  border-radius: 4px;
+}
+
+.carousel-button-focus {
+  width: 6px;
+  height: 6px;
+  left: 12px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
 }
