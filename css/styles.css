@@ -1,11 +1,14 @@
+/* Common elements */
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
 body {
   background-color: #ebebeb;
+  overflow-x: hidden;
 }
 
 header {
@@ -18,13 +21,20 @@ ul {
   list-style: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .debug {
   border: 1px solid blue;
 }
 
+/* Navegation classes */
 .nav {
   display: grid;
-  grid-template-columns: 162px 600px 20vw;
+  grid-template-columns: 162px 600px 374px;
   gap: 12px 24px;
   margin: 8px 8px;
 }
@@ -76,6 +86,10 @@ ul {
   font-weight: lighter;
 }
 
+#nav-auth{
+  justify-content: end;
+}
+
 .nav-menu > img,
 .nav-list-dropdown > img {
   height: 20px;
@@ -102,20 +116,24 @@ ul {
   align-items: center;
 }
 
-.nav-list > li,
-.carousel-list > li {
+.nav-list > li {
   cursor: pointer;
 }
+
+/* Carousel classes */
+.carousel-list > li {
+    cursor: pointer;
+  }
 
 .carousel {
   display: flex;
   flex-direction: column;
   justify-content: end;
   background-image: url('./../media/carousel/carousel.svg');
-  background-size: 1500px;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 335px;
+  background-position-x: center;
+  height: 340px;
+  width: 1512px;
 }
 
 .carousel-list {
@@ -145,13 +163,20 @@ ul {
   border-radius: 3px;
 }
 
+/* Section 1 class*/
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 164px;
+  width: 1184px;
+
 }
 
+.titles{
+
+}
+
+/* Payments classes */
 .payments {
   display: flex;
   width: 1184px;
@@ -199,4 +224,8 @@ ul {
 .payments-more {
   box-sizing: border-box;
   border-left: 1px solid #eeeeee;
+}
+
+/* Sales */
+.sales{
 }
