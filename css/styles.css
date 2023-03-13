@@ -4,6 +4,7 @@
   padding: 0%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  border: 0%;
 }
 
 body {
@@ -86,7 +87,7 @@ main {
   font-weight: lighter;
 }
 
-#nav-auth{
+#nav-auth {
   justify-content: end;
 }
 
@@ -122,8 +123,8 @@ main {
 
 /* Carousel classes */
 .carousel-list > li {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
 .carousel {
   display: flex;
@@ -163,24 +164,36 @@ main {
   border-radius: 3px;
 }
 
-/* Section 1 class*/
+/* Section 1 classes*/
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 1184px;
-
 }
 
-.titles{
+.titles {
+  display: flex;
+  align-items: end;
+  gap: 16.37px;
+}
 
+.titles > h1 {
+  font-weight: lighter;
+  font-size: 25px;
+  color: #666666;
+}
+
+.titles > span {
+  font-weight: lighter;
+  font-size: 15px;
+  color: #3483fa;
 }
 
 /* Payments classes */
 .payments {
   display: flex;
-  width: 1184px;
-  height: 90px;
+  width: 100%;
   left: calc(50% - 1184px / 2);
   top: 380px;
   background: #ffffff;
@@ -191,7 +204,7 @@ main {
 
 .payments-items {
   display: grid;
-  
+
   grid-template-columns: 304.67px 311px 304.67px;
 }
 
@@ -211,7 +224,7 @@ main {
   gap: 3px;
 }
 
-.payments-info > h3 {
+.payments-info > h4 {
   font-weight: 400;
   font-size: 17px;
 }
@@ -227,5 +240,57 @@ main {
 }
 
 /* Sales */
-.sales{
+.sales {
+  display: grid;
+  margin-top: 50px;
+  gap: 22px;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.sales-items {
+  display: flex;
+  gap: 16px;
+}
+
+.sales-card {
+  width: 224px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.sales-info {
+  width: 224px;
+  height: 121px;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  padding: 19px 11.28px 19px 16px;
+}
+
+.sales-info > div > h2 {
+  font-size: 23px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.sales-info > div > span {
+  font-size: 14px;
+  color: #00a650;
+  gap: 5px;
+}
+
+.sales-info > span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #00a650;
+}
+
+.sales-info > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sales-info > img{
+  padding-top: 5px;
 }
