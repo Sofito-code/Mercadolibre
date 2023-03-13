@@ -4,8 +4,8 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color: #EBEBEB;
+body {
+  background-color: #ebebeb;
 }
 
 header {
@@ -111,7 +111,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-image: url("./../media/carousel/carousel.svg");
+  background-image: url('./../media/carousel/carousel.svg');
   background-size: 1500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -143,4 +143,60 @@ ul {
   background: #ffffff;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 164px;
+}
+
+.payments {
+  display: flex;
+  width: 1184px;
+  height: 90px;
+  left: calc(50% - 1184px / 2);
+  top: 380px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.payments-items {
+  display: grid;
+  
+  grid-template-columns: 304.67px 311px 304.67px;
+}
+
+.payments-cards {
+  display: flex;
+  align-items: center;
+}
+
+.payments-cards > img {
+  size: 48px 48px;
+  margin: 20px 16px 22px 20px;
+}
+
+.payments-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.payments-info > h3 {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.payments-info > span {
+  font-size: 13px;
+  color: #3483fa;
+}
+
+.payments-more {
+  box-sizing: border-box;
+  border-left: 1px solid #eeeeee;
 }
