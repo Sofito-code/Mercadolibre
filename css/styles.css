@@ -274,10 +274,16 @@ main {
   color: #333333;
 }
 
-.sales-info > div > span {
+.sales-info > div > h4 {
   font-size: 14px;
+  font-weight: 400;
   color: #00a650;
-  gap: 5px;
+}
+
+.sales-info > div > span {
+  font-size: 14px;  
+  font-weight: 500;
+  color: #00a650;
 }
 
 .sales-info > span {
@@ -398,6 +404,7 @@ main {
   color: #ffffff;
 }
 
+/* BENEFITS */
 .benefits {
   display: flex;
   flex-direction: column;
@@ -408,13 +415,13 @@ main {
   width: 100%;
 }
 
-.benefits-items{
+.benefits-items {
   display: flex;
   gap: 16px;
   width: 100%;
 }
 
-.benefits-card{
+.benefits-card {
   width: 384px;
   height: 250px;
   display: flex;
@@ -422,19 +429,19 @@ main {
   border-radius: 6px;
 }
 
-.benefits-card:nth-child(1){
+.benefits-card:nth-child(1) {
   background-image: url(./../media/benefits/disney.svg);
 }
 
-.benefits-card:nth-child(2){
+.benefits-card:nth-child(2) {
   background-image: url(./../media/benefits/HBOMax.svg);
 }
 
-.benefits-card:nth-child(3){
+.benefits-card:nth-child(3) {
   background-image: url(./../media/benefits/paramount.svg);
 }
 
-.benefits-card-info{
+.benefits-card-info {
   width: 100%;
   height: 112px;
   display: flex;
@@ -444,24 +451,83 @@ main {
   gap: 16px;
 }
 
-.benefits-card-info > div span:nth-child(1){
+.benefits-card-info > div span:nth-child(1) {
   font-size: 11px;
   font-weight: 700;
   padding-bottom: 4px;
 }
 
-.benefits-card-info > div span:nth-child(2){
+.benefits-card-info > div span:nth-child(2) {
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 5px;
 }
 
-.benefits-card-info > div span:nth-child(3){
+.benefits-card-info > div span:nth-child(3) {
   font-size: 18px;
 }
 
-.benefits-card-info > div{
+.benefits-card-info > div {
   display: flex;
   flex-direction: column;
 }
 
+/* DISCOVER */
+.discover {
+  display: flex;
+  flex-direction: column;
+  margin-top: 93px;
+  gap: 22px;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.discover-items {
+  display: flex;
+  gap: 15px;
+  padding: 0px 8px;
+}
+
+.discover-card {
+  height: 250px;
+  width: 584px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+}
+.discover-card > div > img {
+  border-radius: 4px;
+}
+.discover-info {
+  padding: 57.7px 0px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.discover-info > h6:nth-child(1) {
+  font-size: 12px;
+  margin-bottom: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.discover-info > h6:nth-child(2),
+.discover-info > h6:nth-child(3) {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.discover-info > div {
+  background: #3483fa;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 7.52px 21px 8.48px 23px;
+  margin-top: 13.8px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+}
