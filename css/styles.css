@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   border: 0%;
+  user-select: none; 
 }
 
 body {
@@ -188,6 +189,7 @@ main {
   font-weight: lighter;
   font-size: 15px;
   color: #3483fa;
+  cursor: pointer;
 }
 
 /* Payments classes */
@@ -232,6 +234,7 @@ main {
 .payments-info > span {
   font-size: 13px;
   color: #3483fa;
+  cursor: pointer;
 }
 
 .payments-more {
@@ -259,6 +262,7 @@ main {
   height: 350px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  cursor: pointer;
 }
 
 .sales-info {
@@ -281,7 +285,7 @@ main {
 }
 
 .sales-info > div > span {
-  font-size: 14px;  
+  font-size: 14px;
   font-weight: 500;
   color: #00a650;
 }
@@ -297,6 +301,7 @@ main {
   align-items: center;
   gap: 5px;
 }
+
 .sales-info > img {
   padding-top: 5px;
 }
@@ -335,11 +340,13 @@ main {
   font-weight: 400;
   text-decoration: line-through;
 }
+
 .subs-price > div > div {
   display: flex;
   gap: 4.45px;
   align-items: end;
 }
+
 .subs-price > div > div > h5 {
   font-size: 22px;
   font-weight: 500;
@@ -358,6 +365,7 @@ main {
   border-left: 2px solid #ffffff;
   margin-right: 6px;
 }
+
 .subs-content {
   display: flex;
   flex-direction: column;
@@ -382,6 +390,7 @@ main {
 .subs-items {
   display: flex;
 }
+
 .subs-submit {
   background-color: #ffffff;
   display: flex;
@@ -389,6 +398,7 @@ main {
   padding: 17px 30px 16px 0px;
   border-radius: 0px 0px 4px 4px;
   border-top: 1px solid rgba(51, 51, 51, 0.1);
+  cursor: pointer;
 }
 
 .subs-submit > div {
@@ -486,7 +496,6 @@ main {
 .discover-items {
   display: flex;
   gap: 15px;
-  padding: 0px 8px;
 }
 
 .discover-card {
@@ -499,6 +508,7 @@ main {
   justify-content: space-between;
   padding-left: 32px;
 }
+
 .discover-card > div > img {
   border-radius: 4px;
 }
@@ -530,4 +540,85 @@ main {
   display: inline-block;
   font-weight: 500;
   font-size: 14px;
+  cursor: pointer;
+}
+
+/* STORES */
+.stores {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  gap: 22px;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.stores-items {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.stores-card {
+  width: 284px;
+  height: 340px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.stores-card-logo {
+  border-radius: 4px 4px 0px 0px;  
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.stores-card-logo > img {
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 55px;
+  margin-bottom: 16px;
+}
+
+#banner-lego{
+  background-image: url(./../media/stores/lego/banner.svg);
+}
+
+#banner-xiaomi{
+  background-image: url(./../media/stores/xiaomi/banner.svg);
+}
+
+#banner-oster{
+  background-image: url(./../media/stores/oster/banner.svg);
+}
+
+#banner-nikon{
+  background-image: url(./../media/stores/nikon/banner.svg);
+}
+
+.stores-info {
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.stores-info > h2 {
+  font-size: 24px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.stores-card-images {
+  padding: 16px 0px 22px 0px;
+}
+
+.stores-info > span,
+.stores-card-images > img{
+  cursor: pointer;
 }
