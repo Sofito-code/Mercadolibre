@@ -720,7 +720,7 @@ main {
   display: flex;
   align-items: start;
   justify-content: center;
-  width: 857px;
+  width: 1184px;
 }
 
 .advantages > div {
@@ -728,8 +728,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  
+  justify-content: start;  
 }
 
 .advantages > div > h1 {
@@ -754,14 +753,9 @@ main {
   color: #3483fa;
 }
 
-.advantages-delimiter {
-  width: 1px;
-  height: 65px;
-  background: #e2e2e2;
+.advantages > img {
   margin-top: 53.5px;
-  display: flex;
 }
-
 .footer {
   background: #ffffff;
   border-top: 1px solid #e6e6e6;
