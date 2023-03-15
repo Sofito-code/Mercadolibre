@@ -699,8 +699,64 @@ main {
   color: #333333;
   gap: 11px;
   border-width: 0px 1px 1px 0px;
-border-style: solid;
-border-color: #EAE6E6;
-padding: 16px;
-text-align: center;
+  border-style: solid;
+  border-color: #eae6e6;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Section 3 classes*/
+.section-3 {
+  padding-top: 75px;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 73.62px;
+}
+
+/* Advantages */
+.advantages {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 865px;
+}
+
+.advantages > div {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.advantages > div > h1 {
+  font-weight: 500;
+  font-size: 19px;
+  color: #4B4B4B;
+  padding: 24px 0px 2px 0px;
+}
+
+.advantages > div > p {
+  font-weight: 400;
+  width: 285px;
+  text-align: center;
+  font-size: 15px;
+  color: #999999;
+  padding-bottom: 9px;
+}
+
+.advantages > div > span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #3483FA;
+}
+
+.advantages-delimiter {
+  width: 1px;
+  height: 65px;
+  background: #e2e2e2;
+  margin-top: 53.5px;
+  display: flex;
 }
