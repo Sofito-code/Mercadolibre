@@ -720,7 +720,7 @@ main {
   display: flex;
   align-items: start;
   justify-content: center;
-  width: 865px;
+  width: 857px;
 }
 
 .advantages > div {
@@ -729,12 +729,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  
 }
 
 .advantages > div > h1 {
   font-weight: 500;
   font-size: 19px;
-  color: #4B4B4B;
+  color: #4b4b4b;
   padding: 24px 0px 2px 0px;
 }
 
@@ -750,7 +751,7 @@ main {
 .advantages > div > span {
   font-weight: 400;
   font-size: 13px;
-  color: #3483FA;
+  color: #3483fa;
 }
 
 .advantages-delimiter {
@@ -759,4 +760,44 @@ main {
   background: #e2e2e2;
   margin-top: 53.5px;
   display: flex;
+}
+
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #e6e6e6;
+  height: 156px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  width: 1184px;
+}
+
+.footer-items-list {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  padding-bottom: 7px;
+}
+
+.footer-items > span {
+  font-weight: 400;
+  font-size: 11px;
+  color: #999999;
+  padding-bottom: 2px;
+}
+
+.footer-items-images{
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #EDEDED;
+  margin-top: 14px;
+  padding-top: 17px;
 }
